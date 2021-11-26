@@ -6,4 +6,5 @@ public interface GameProject {
     public val documentation: GameProjectDocumentation
     public val assets: Set<GameAsset>
     public val platforms: Set<GameProjectPlatform>
+    public val versions: Set<GameProjectVersion>
 }
