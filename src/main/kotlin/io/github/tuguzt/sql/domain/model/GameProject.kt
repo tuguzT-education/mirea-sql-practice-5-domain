@@ -1,6 +1,6 @@
 package io.github.tuguzt.sql.domain.model
 
-public interface GameProject {
+public interface GameProject : Identifiable<Int> {
     public val name: String
     public val description: String
     public val documentation: GameProjectDocumentation

@@ -1,6 +1,6 @@
 package io.github.tuguzt.sql.domain.model
 
-public interface Organization {
+public interface Organization : Identifiable<Int> {
     public val name: String
     public val description: String
     public val type: OrganizationType

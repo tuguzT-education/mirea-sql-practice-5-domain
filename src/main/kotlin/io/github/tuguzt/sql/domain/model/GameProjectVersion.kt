@@ -1,6 +1,6 @@
 package io.github.tuguzt.sql.domain.model
 
-public interface GameProjectVersion {
+public interface GameProjectVersion : Identifiable<Int> {
     public val hash: String
     public val major: Int
     public val minor: Int
