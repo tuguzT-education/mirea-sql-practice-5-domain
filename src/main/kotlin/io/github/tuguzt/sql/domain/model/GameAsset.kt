@@ -5,4 +5,5 @@ public interface GameAsset : Identifiable<Int> {
     public val description: String
     public val dataUri: String
     public val type: GameAssetType
+    public val gameProject: GameProject
 }

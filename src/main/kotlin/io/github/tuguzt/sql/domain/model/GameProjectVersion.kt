@@ -6,4 +6,5 @@ public interface GameProjectVersion : Identifiable<Int> {
     public val minor: Int
     public val patch: Int
     public val metadata: String
+    public val gameProject: GameProject
 }

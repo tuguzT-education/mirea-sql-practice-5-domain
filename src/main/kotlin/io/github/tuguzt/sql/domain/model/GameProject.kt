@@ -7,4 +7,5 @@ public interface GameProject : Identifiable<Int> {
     public val assets: Set<GameAsset>
     public val platforms: Set<GameProjectPlatform>
     public val versions: Set<GameProjectVersion>
+    public val organizations: Set<Organization>
 }
